@@ -23,14 +23,33 @@
 
 /* Add Your Declarations and Function Comments here */
 
-void main(){}
-void print_statistics() {}
-void print_array() {}
-void find_median() {}
-void find_mean() {}
-void find_maximum() {}
-void find_minimum() {}
-void sort_array() {}
+void print_statistics() {
+
+}
+
+void print_array() {
+
+}
+
+void find_median() {
+
+}
+
+void find_mean() {
+
+}
+
+void find_maximum() {
+
+}
+
+void find_minimum() {
+
+}
+
+void sort_array() {
+
+}
 
 
 #endif /* __STATS_H__ */
