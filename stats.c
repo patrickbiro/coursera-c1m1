@@ -34,22 +34,16 @@ void main() {
   200, 122, 150, 90,   92,  87, 177, 244,
   201,   6,  12,  60,   8,   2,   5,  67,
   7,  87, 250, 230,  99,   3, 100,  90};
-  /* Rmove unsigned char test[5] = { 3 , 2, 4, 1, 7};*/
+  /*unsigned char test[7] = { 3 , 2, 4, 1, 7, 9, 10};*/
 
   /* Other Variable Declarations Go Here */
+  /*Defines the size of the array*/
   unsigned int test_array_length = sizeof(test)/ sizeof test[0];
   unsigned char *test_pointer = test; // Actually points to first item of array which is the same address as the array itself
 
+
   /* Statistics and Printing Functions Go Here */
-  sort_array(test_pointer,test_array_length);
-
-  /*Remove*/
-  printf("start \n");
-  for( int i = 0 ; i < test_array_length; i++ ) {
-    printf("%d \n", test[i]);
-  }
-  /*Remove*/
-
+  print_statistics(test_pointer,test_array_length);
 }
 
 /* Add other Implementation File Code Here */
