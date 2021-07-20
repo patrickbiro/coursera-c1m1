@@ -38,7 +38,7 @@ void print_array(unsigned char * array, unsigned int array_length) {
 /*----------------------------------------*/
 void sort_array(unsigned char * array, unsigned int array_length) {
 /*For each array item, we check if items further in the array are larger. The larger number between i and the end of the array is moved to position i.
-At the end, the array is sorted by increasing values*/
+Itereatively, the array is sorted by increasing values*/
   for( int i = 0 ; i < array_length; i++ ) {    //First loop goes through the array
     for( int j = 0 ; j < array_length; j++ ){   //Second loop check on the reamining array items if they are small than current element
       if (array[i]>array[j]) {  //If an item further in the array is small than the i item, it is permuted so it is in growing order
